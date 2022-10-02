@@ -145,7 +145,8 @@ section {
 // input
 
 input,
-textarea {
+textarea,
+select {
     --ring-spread: 2px;
 
     background: @bg-surface-high;
@@ -168,4 +169,8 @@ textarea {
         box-shadow: 0 0 0 var(--ring-spread) @primary; // ring effect
         color: @text-primary;
     }
+}
+
+select {
+    cursor: context-menu;
 }
